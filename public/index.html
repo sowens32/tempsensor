@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="indexJ.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+
+
+  <body>
+    <div id="container">
+
+      <div id="header">
+        <h1 id="headerH1">Temperature Sensor</h1>
+      </div>
+      
+      <div id="subheader">
+        <h2 id="time-updated">Time Updated:</h2>
+        <p id="time"></p>
+      </div>
+      
+      <div id="wrapper1">
+
+          <div id="h-box" class="infobox">
+            <h3 id="humidity" class="infoTitle">Humidity</h3>
+            <div class="info">
+              <p id="h"></p>
+            </div>
+          </div>
+          
+          <div id="f-box" class="infobox">
+            <h3 id="tempName" class="infoTitle">Fahrenheit </h3>
+            <div class="info">
+              <p id="temp"></p> <!--&#176; is degree symbol-->
+            </div>
+          </div>
+
+    </div> 
+    
+
+    <div id="histWrapper">
+        <button id="updateBut" class="left">Update</button>
+        <button id="tempHistBut" class="left">Show Temperature History</button>
+        <button id="humidHistBut" class="left">Show Humidity History</button>
+        <button id="tempTypeBut" class="tempType">C&#176</button>
+    </div>
+
+    <div id="wrapper2">
+      <div id="histBox" >
+      </div>
+    </div>
+
+  </div> 
+  
+
+  </body>
+</html>

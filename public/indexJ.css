@@ -1,0 +1,139 @@
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@600&display=swap');
+      body {
+        background-color: #023047;
+        background-image: radial-gradient(#023047, #f1faee);
+        background-size: cover;
+      }
+
+      h1, h2 {
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        color:#8d99ae;
+        font-weight: bolder;
+      }
+      .infoTitle {
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        color:#8d99ae;
+        font-weight: bolder;
+      }
+      p {
+        font-family: 'Comfortaa', cursive;
+        font-size: 60px;
+        font-weight: bolder;
+      }
+      #header {
+        display: block;
+        width: 100%;
+      }
+      #subheader {
+        display: block;
+        width: 100%;
+        justify-content: center;
+      }
+      #wrapper1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #edf2f4;
+        border: 5px white;
+        border-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      #wrapper2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #edf2f4;
+        border: 5px white;
+        border-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      #histBox {
+        width: 100%;
+        height: 500px;
+      }
+
+      #container {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        background-color: #2b2d42;
+        border-color: solid green;
+        border-radius: 15px;
+        box-shadow: 7px 7px 10px;
+      }
+
+      .infobox {
+        width: 45%;
+        display: block;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 16px;
+      }
+
+      #time {
+        font-size: 40px;
+        color: #f1faee;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        margin:0;
+      }
+
+
+      #headerH1 {
+        color: #f1faee;
+        font-size: 65px;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      #histBox {
+        display: none;
+      }
+
+      #updateBut {
+        display: none;
+      }
+      
+      #histWrapper {
+        width: 100%;
+      }
+
+      #histWrapper > button {
+        background-color: gray;
+        border-radius: 8px;
+        font-size: 20px;
+        padding: 10px 16px;
+        text-align: center;
+        transition: 300ms;
+      }
+
+      #histWrapper > button:hover {
+        background-color: lightgray;
+      }
+
+      .temp1 {
+        display: inline-block;
+      }
+
+      .tempType {
+        float: right;
+        justify-self: flex-end;
+      }
+
+      .left {
+        justify-self: flex-start;
+      }
+
+      .info {
+        align-items: center;
+      }
+
+    
