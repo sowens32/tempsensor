@@ -8,8 +8,8 @@ Real Time Temperature Sensor using Arduino mk1000
 - contains arduino code for sending temperature readings with the DHT22
 
 node_modules
-- all downloaded node modules
-- see package.json for dependencies
+- all downloaded node modules through terminal
+- see package.json for dependencies - used npm install
 
 public
 - HTML, CSS, and script file
